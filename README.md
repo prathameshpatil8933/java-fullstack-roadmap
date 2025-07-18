@@ -1,7 +1,6 @@
-# java-fullstack-roadmap
 # Java Full Stack Roadmap 🚀
+This repository tracks my journey as a fresher to become a **Java Full Stack Developer** — with a strong focus on backend development, clean code, and real-world project building.
 
-This repo tracks my journey to become a Java Full Stack Developer (₹15+ LPA Ready)
 
 ## 📘 Learning Tracks
 - ✅ Bro Code Java Basics
@@ -17,3 +16,8 @@ Java, JDBC, Servlets, Spring Boot, MySQL, Postman, Git, REST API, MVC, etc.
 - `/02-codeforsuccess-course` – Course practice
 - `/03-projects` – Mini + Major Projects
 - `/04-system-design` – Notes & Diagrams
+## 🎯 Goal
+
+> To become an industry-ready Java Full Stack Developer with strong fundamentals, backend depth, and hands-on project experience.
+
+---
