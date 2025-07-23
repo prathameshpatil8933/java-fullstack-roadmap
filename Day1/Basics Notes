@@ -1,0 +1,54 @@
+- String methods
+    1. .length() : Gives number of characters in string 
+    2. .charAt(index) : Index is 0 based 
+    3. .indexOf(’Pass the character’)
+    4. .lastIndexOf(’ ’) : It gives at what index  the character appeared last time
+    5. .toUpperCase(); and lowerCase();
+    6. .trim() : The trim()` method in Java is used on **strings** to **remove any leading and trailing whitespace** (spaces, tabs, newline characters, etc.)
+    7. .replace(”a”,”b”)  a is replaced with b 
+    8. .isEmpty() returns true if string is empty else false
+    9. .contains(” ”) true or false 
+   10. a.equals(”b ”) if both strings have same character then return true , it is case sensitive 
+   11. .equalsIgnoreCase(” ”) : case sensitive will be ignored 
+   12. .subString() : it is also like [ 1, 6) 6 will not be included the index 
+   Suppose we want this more flexible means like we want only domain name so we can also tell here by giving index using string indexof method like this
+
+---------------------------------------------------------------------------------------------
+Domain and Username : 
+package Basics;
+
+import java.util.Scanner;
+
+public class Nine_StringMEthod {
+    public static void main(String[] args) {
+
+            // .substring() = A method used to extract a portion of a string
+            //                         .substring(start, end)
+
+            Scanner scanner = new Scanner(System.in);
+
+            String email;
+            String username;
+            String domain;
+
+            System.out.print("Enter your email: ");
+
+            email = scanner.nextLine();
+
+            if(email.contains("@")){
+                username = email.substring(0, email.indexOf("@"));
+                domain = email.substring(email.indexOf("@") + 1);
+
+                System.out.println("Your username is " + username);
+                System.out.println("Your domain is " + domain);
+            }
+            else{
+                System.out.println("Emails must contain @");
+            }
+
+            scanner.close();
+        }
+    }
+
+----------------------------------------------------------------------------------------------
+
